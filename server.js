@@ -11,8 +11,6 @@ app.use(bodyParser.urlencoded({
     })
 )
 
-app.use(bodyParser.json())
-
 // __dirname is the directory name of the current project
 app.use(express.static(__dirname + "/views"));
 app.use(express.static(__dirname + "/img"));
